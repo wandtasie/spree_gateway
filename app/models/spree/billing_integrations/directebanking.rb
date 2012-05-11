@@ -10,8 +10,8 @@ module Spree
       ActiveMerchant::Billing::Integrations::Directebanking
     end
 
-    def source_required?
-      false
-    end
+    #def source_required?
+    #  false
+    #end
   end
 end
